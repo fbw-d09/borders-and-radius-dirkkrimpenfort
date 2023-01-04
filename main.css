@@ -1,0 +1,135 @@
+img{
+    width: 300px;
+    height: 220px; 
+    border-color: red;
+    border-width: 20px;
+    
+    
+}
+.container{
+/* display: flex; */
+
+
+}
+#Rand_oben_und_unten{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  position: absolute;
+  bottom: 650px;
+  left: 26px;
+  
+}
+.Text-platzieren-Rand-oben-und-unten{
+    position: absolute;
+    left: 26px;
+    bottom:900px
+}
+
+#Rand_unten{
+
+    border-bottom-style: solid;
+    display:inline;
+    position: absolute;
+    bottom: 850px;
+    left: 416px;
+  }
+
+  
+ #Rand_unten2{
+
+    border-bottom-style: solid;
+    display:inline;
+    position: absolute;
+    bottom: 750px;
+    left: 416px;
+    
+
+ }
+
+#Rand_punktiert{
+    border-style: dotted;
+    position: absolute;
+    bottom: 650px;
+    left: 816px;
+        
+}
+.Text-platzieren-Rand-punktiert{
+    position: absolute;
+    left: 816px;
+    bottom:900px
+
+  }
+
+
+#Rand_inset{
+border-style: inset;
+position: absolute;
+    bottom: 650px;
+    left: 1216px;
+
+}
+.Text-platzieren-Rand-inset{
+    position: absolute;
+    bottom: 900px;
+    left: 1216px;
+
+}
+
+#Rand_crimson{
+    border-style: inset;
+    border-color: crimson;
+    position: absolute;
+        bottom: 250px;
+        left: 16px; 
+    }
+    .Text-platzieren-Rand-crimson{
+        position: absolute;
+        bottom: 500px;
+        left: 16px; 
+    }
+    
+
+
+#Rand_rund{
+    width: 220px;
+    height: 220px; 
+    border-radius: 220px;
+    position: absolute;
+    left: 416px;
+    bottom:270px
+}
+.Text-platzieren-Rand-rund{
+    position: absolute;
+    left: 416px;
+    bottom:500px
+}
+
+#username{
+    border-bottom: 5px solid black;
+    display: inline;
+    position: absolute;
+        bottom: 500px;
+        left: 816px; 
+
+}
+
+#userrol{
+    border-bottom: 5px solid black;
+    display: inline;
+    position: absolute;
+        bottom: 400px;
+        left: 816px; 
+}
+
+button
+{
+    border: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    padding: 5px 10px;
+}
+.Button-platzieren{
+    position: absolute;
+    left: 816px;
+    bottom:270px 
+}
